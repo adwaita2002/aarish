@@ -11,11 +11,10 @@ import {
       <>
         <div className="bg-white pt-12">
           <div className="flex w-full justify-between items-center">
-            <div className="flex gap-10 items-center">
+            <div className="flex gap-5 items-center cursor-pointer">
               <FontAwesomeIcon icon={faMagnifyingGlass} className="text-[25px]" />
-              <h1 className="text-slate-400 text-[20px]">
-                Search Something...
-              </h1>
+             
+              <input type="search" name="search" id="search" placeholder="Search somthing...." className=" bg-transparent p-1 rounded-md text-[20px]"/>
             </div>
             <div className="flex gap-10 text-[25px] items-center">
               <div>
